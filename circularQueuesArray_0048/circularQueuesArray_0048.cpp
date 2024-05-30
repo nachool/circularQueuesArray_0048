@@ -12,6 +12,12 @@ public:
         REAR = -1;
     }
 
+    // Method untuk menambahkan elemen ke dalam queue
+    void insert() {
+        int num;
+        cout << "Enter a number : ";
+        cin >> num;
+        cout << endl;
 
 
 int main()
