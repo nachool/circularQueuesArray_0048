@@ -68,7 +68,7 @@ public:
         int REAR_Position = REAR;
 
         //Cek apakah antrian kosong
-        if (FRONT_Position == -1) {
+        if (FRONT == -1) {
             cout << "Queue is empty\n";
             return;
         }
@@ -96,6 +96,7 @@ public:
                 cout << queues_array[FRONT] << " ";
                 FRONT_Position++;
             }
+            cout << endl;
         }
     }
 };
@@ -144,7 +145,7 @@ int main()
             cout << "Check for the value entered." << endl;
         }
     }
-    return 0;
+    return 0;
 
 }
 
