@@ -140,6 +140,11 @@ int main()
             }
             }
         }
+        catch (exception& e) {
+            cout << "Check for the value entered." << endl;
+        }
+    }
+    return 0;
 
 }
 
